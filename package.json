@@ -1,0 +1,29 @@
+{
+  "name": "tutorial-nodejs",
+  "version": "1.0.0",
+  "description": "Tutorial de Nodejs con MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cesarArtezan/tutorial-mongodb-nodejs"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "nosql",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarArtezan/tutorial-mongodb-nodejs/issues"
+  },
+  "homepage": "https://github.com/cesarArtezan/tutorial-mongodb-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.17"
+  }
+}
