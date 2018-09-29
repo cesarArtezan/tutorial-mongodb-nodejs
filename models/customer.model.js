@@ -25,13 +25,13 @@ var CustomerSchema = Schema({
     require: true
   },
   // maquinas
-  /* machine: [
+  machine: [
     {
       type: Schema.Types.ObjectId,
       ref: 'Machine',
       default: []
     }
-  ] */
+  ]
 });
 // Exportamos el modelo para usarlo en otros ficheros
 module.exports = mongoose.model('Customer', CustomerSchema);
