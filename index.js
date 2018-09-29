@@ -18,7 +18,7 @@ mongoose.connect(mongoURL,  { useMongoClient: true})
         console.log("La conexión a la base de datos  se ha realizado correctamente")
     
         // CREAR EL SERVIDOR WEB CON NODEJS
-        app.listen(port, () => {
+        app.listen( process.env.PORT || port, () => {
             console.log("servidor corriendo en puerto: " + port);
         });
     })
