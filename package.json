@@ -4,6 +4,7 @@
   "description": "Tutorial de Nodejs con MongoDB",
   "main": "index.js",
   "scripts": {
+    "serve": "nodemon index.js",
     "start": "nodemon index.js"
   },
   "repository": {
